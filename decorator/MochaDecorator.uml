@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.litchi.decorator.MochaDecorator</OriginalElement>
+  <nodes>
+    <node x="218.51470588235287" y="208.0">com.litchi.decorator.Espresso</node>
+    <node x="72.51470588235293" y="208.0">com.litchi.decorator.Decaf</node>
+    <node x="612.25" y="313.0">com.litchi.decorator.MochaDecorator</node>
+    <node x="510.51470588235287" y="208.0">com.litchi.decorator.HouseBlend</node>
+    <node x="475.01470588235287" y="0.0">com.litchi.decorator.Beverage</node>
+    <node x="364.51470588235287" y="208.0">com.litchi.decorator.DarkRoast</node>
+    <node x="796.7647058823529" y="313.0">com.litchi.decorator.MilkDecorator</node>
+    <node x="978.7647058823529" y="313.0">com.litchi.decorator.SoyDecorator</node>
+    <node x="0.0" y="313.0">com.litchi.decorator.WhipDecorator</node>
+    <node x="689.5" y="208.0">com.litchi.decorator.CondimentDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.litchi.decorator.MochaDecorator" target="com.litchi.decorator.CondimentDecorator">
+      <point x="54.0" y="-70.5" />
+      <point x="747.25" y="293.0" />
+      <point x="761.5" y="293.0" />
+      <point x="-24.0" y="27.5" />
+    </edge>
+    <edge source="com.litchi.decorator.MilkDecorator" target="com.litchi.decorator.CondimentDecorator">
+      <point x="-54.0" y="-70.5" />
+      <point x="823.7647058823529" y="293.0" />
+      <point x="809.5" y="293.0" />
+      <point x="24.0" y="27.5" />
+    </edge>
+    <edge source="com.litchi.decorator.DarkRoast" target="com.litchi.decorator.Beverage">
+      <point x="31.5" y="-27.5" />
+      <point x="459.01470588235287" y="188.0" />
+      <point x="534.5735294117646" y="188.0" />
+      <point x="-7.941176470588289" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.CondimentDecorator" target="com.litchi.decorator.Beverage">
+      <point x="0.0" y="-27.5" />
+      <point x="785.5" y="158.0" />
+      <point x="574.2794117647059" y="158.0" />
+      <point x="31.764705882352928" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.Decaf" target="com.litchi.decorator.Beverage">
+      <point x="-31.5" y="-27.5" />
+      <point x="104.01470588235293" y="138.0" />
+      <point x="494.8676470588235" y="138.0" />
+      <point x="-47.64705882352939" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.SoyDecorator" target="com.litchi.decorator.CondimentDecorator">
+      <point x="-54.0" y="-70.5" />
+      <point x="1005.7647058823529" y="283.0" />
+      <point x="857.5" y="283.0" />
+      <point x="72.0" y="27.5" />
+    </edge>
+    <edge source="com.litchi.decorator.Espresso" target="com.litchi.decorator.Beverage">
+      <point x="31.5" y="-27.5" />
+      <point x="313.01470588235287" y="168.0" />
+      <point x="518.6911764705881" y="168.0" />
+      <point x="-23.823529411764753" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.WhipDecorator" target="com.litchi.decorator.Beverage">
+      <point x="-54.0" y="-70.5" />
+      <point x="27.0" y="293.0" />
+      <point x="51.014705882352814" y="293.0" />
+      <point x="51.014705882352814" y="118.0" />
+      <point x="478.985294117647" y="118.0" />
+      <point x="-63.529411764705856" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.WhipDecorator" target="com.litchi.decorator.CondimentDecorator">
+      <point x="54.0" y="-70.5" />
+      <point x="135.0" y="293.0" />
+      <point x="713.5" y="293.0" />
+      <point x="-72.0" y="27.5" />
+    </edge>
+    <edge source="com.litchi.decorator.SoyDecorator" target="com.litchi.decorator.Beverage">
+      <point x="54.0" y="-70.5" />
+      <point x="1113.764705882353" y="293.0" />
+      <point x="1089.0555555555557" y="293.0" />
+      <point x="1089.0555555555557" y="118.0" />
+      <point x="606.0441176470588" y="118.0" />
+      <point x="63.529411764705856" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.MochaDecorator" target="com.litchi.decorator.Beverage">
+      <point x="0.0" y="-70.5" />
+      <point x="693.25" y="283.0" />
+      <point x="660.0147058823529" y="283.0" />
+      <point x="660.0147058823529" y="168.0" />
+      <point x="566.3382352941176" y="168.0" />
+      <point x="23.82352941176464" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.MilkDecorator" target="com.litchi.decorator.Beverage">
+      <point x="54.0" y="-70.5" />
+      <point x="931.7647058823529" y="293.0" />
+      <point x="924.5147058823529" y="293.0" />
+      <point x="924.5147058823529" y="138.0" />
+      <point x="590.1617647058822" y="138.0" />
+      <point x="47.64705882352939" y="49.0" />
+    </edge>
+    <edge source="com.litchi.decorator.HouseBlend" target="com.litchi.decorator.Beverage">
+      <point x="32.0" y="-27.5" />
+      <point x="606.5147058823529" y="188.0" />
+      <point x="550.455882352941" y="188.0" />
+      <point x="7.941176470588175" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="524.5" y="200.5" />
+  <SelectedNodes>
+    <node>com.litchi.decorator.MochaDecorator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

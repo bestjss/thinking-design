@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.litchi.strategy.Duck</OriginalElement>
+  <nodes>
+    <node x="184.42187499999994" y="352.0">com.litchi.strategy.MallardDuck</node>
+    <node x="60.84374999999994" y="181.0">com.litchi.strategy.Quack</node>
+    <node x="849.5" y="181.0">com.litchi.strategy.FlyWithWings</node>
+    <node x="717.5" y="181.0">com.litchi.strategy.FlyNoWay</node>
+    <node x="414.4218749999999" y="352.0">com.litchi.strategy.RubberDuck</node>
+    <node x="706.9218749999999" y="0.0">com.litchi.strategy.FlyBehavior</node>
+    <node x="186.921875" y="0.0">com.litchi.strategy.QuackBehavior</node>
+    <node x="414.4218749999999" y="125.0">com.litchi.strategy.Duck</node>
+    <node x="644.4218749999999" y="352.0">com.litchi.strategy.RedheadDuck</node>
+    <node x="200.84374999999994" y="181.0">com.litchi.strategy.Squeak</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.litchi.strategy.MallardDuck" target="com.litchi.strategy.Duck">
+      <point x="70.0" y="-60.5" />
+      <point x="359.42187499999994" y="332.0" />
+      <point x="449.4218749999999" y="332.0" />
+      <point x="-70.0" y="83.5" />
+    </edge>
+    <edge source="com.litchi.strategy.RedheadDuck" target="com.litchi.strategy.Duck">
+      <point x="-70.0" y="-60.5" />
+      <point x="679.4218749999999" y="312.0" />
+      <point x="589.4218749999999" y="312.0" />
+      <point x="70.0" y="83.5" />
+    </edge>
+    <edge source="com.litchi.strategy.FlyNoWay" target="com.litchi.strategy.FlyBehavior">
+      <point x="0.0" y="-27.5" />
+      <point x="773.5" y="105.0" />
+      <point x="763.5885416666666" y="105.0" />
+      <point x="-11.333333333333314" y="27.5" />
+    </edge>
+    <edge source="com.litchi.strategy.RubberDuck" target="com.litchi.strategy.Duck">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.litchi.strategy.FlyWithWings" target="com.litchi.strategy.FlyBehavior">
+      <point x="0.0" y="-27.5" />
+      <point x="921.5" y="105.0" />
+      <point x="786.2552083333333" y="105.0" />
+      <point x="11.333333333333371" y="27.5" />
+    </edge>
+    <edge source="com.litchi.strategy.Quack" target="com.litchi.strategy.QuackBehavior">
+      <point x="0.0" y="-27.5" />
+      <point x="120.84374999999994" y="105.0" />
+      <point x="250.25520833333337" y="105.0" />
+      <point x="-12.666666666666629" y="27.5" />
+    </edge>
+    <edge source="com.litchi.strategy.Squeak" target="com.litchi.strategy.QuackBehavior">
+      <point x="0.0" y="-27.5" />
+      <point x="260.84374999999994" y="105.0" />
+      <point x="275.58854166666663" y="105.0" />
+      <point x="12.666666666666629" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="527.0" y="236.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
