@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-# thinking-desgin
-=======
 # thinking-design
-
-- Strategy with java
->>>>>>> study
+- Study Strategy with java
