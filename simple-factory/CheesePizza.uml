@@ -3,40 +3,159 @@
   <ID>JAVA</ID>
   <OriginalElement>com.litchi.simple.factory.CheesePizza</OriginalElement>
   <nodes>
-    <node x="0.0" y="365.0">com.litchi.simple.factory.PepperoniPizza</node>
-    <node x="174.4351851851852" y="0.0">lombok.Data</node>
-    <node x="184.7685185185185" y="575.0">com.litchi.simple.factory.PizzaStore</node>
-    <node x="180.0" y="365.0">com.litchi.simple.factory.CheesePizza</node>
-    <node x="171.4351851851852" y="105.0">com.litchi.simple.factory.Pizza</node>
-    <node x="142.35185185185185" y="470.0">com.litchi.simple.factory.PizzaFactory</node>
+    <node x="651.6359649122807" y="730.0">com.litchi.simple.factory.NyPizzaStore</node>
+    <node x="57.365131578947285" y="435.0">com.litchi.simple.factory.PepperoniPizza</node>
+    <node x="310.75" y="0.0">lombok.Data</node>
+    <node x="542.8859649122807" y="559.0">com.litchi.simple.factory.PizzaStore</node>
+    <node x="237.3651315789473" y="435.0">com.litchi.simple.factory.CheesePizza</node>
+    <node x="412.2543859649123" y="730.0">com.litchi.simple.factory.NjPizzaStore</node>
+    <node x="307.75" y="105.0">com.litchi.simple.factory.Pizza</node>
+    <node x="289.3377192982456" y="592.0">com.litchi.simple.factory.NyPizzaFactory</node>
+    <node x="72.73135964912274" y="592.0">com.litchi.simple.factory.NjPizzaFactory</node>
+    <node x="463.64364035087715" y="434.0">com.litchi.simple.factory.PizzaFactory</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.litchi.simple.factory.CheesePizza" target="com.litchi.simple.factory.Pizza">
-      <point x="0.0" y="-27.5" />
-      <point x="248.0" y="340.0" />
-      <point x="245.6851851851852" y="340.0" />
-      <point x="-24.75" y="105.0" />
+    <edge source="com.litchi.simple.factory.NjPizzaFactory" target="com.litchi.simple.factory.Pizza">
+      <point x="-70.5" y="-27.5" />
+      <point x="96.23135964912274" y="539.0" />
+      <point x="22.5" y="539.0" />
+      <point x="22.5" y="394.0" />
+      <point x="344.875" y="394.0" />
+      <point x="-61.875" y="129.5" />
     </edge>
-    <edge source="com.litchi.simple.factory.PepperoniPizza" target="com.litchi.simple.factory.Pizza">
+    <edge source="com.litchi.simple.factory.PizzaFactory" target="com.litchi.simple.factory.Pizza">
       <point x="0.0" y="-27.5" />
-      <point x="80.0" y="340.0" />
-      <point x="196.1851851851852" y="340.0" />
-      <point x="-74.25" y="105.0" />
+      <point x="557.6436403508771" y="414.0" />
+      <point x="443.875" y="414.0" />
+      <point x="37.125" y="129.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NjPizzaFactory" target="com.litchi.simple.factory.CheesePizza">
+      <point x="23.5" y="-27.5" />
+      <point x="190.23135964912274" y="519.0" />
+      <point x="271.3651315789473" y="519.0" />
+      <point x="-34.0" y="26.5" />
     </edge>
     <edge source="com.litchi.simple.factory.Pizza" target="lombok.Data">
-      <point x="0.0" y="-105.0" />
+      <point x="0.0" y="-129.5" />
       <point x="0.0" y="27.5" />
     </edge>
+    <edge source="com.litchi.simple.factory.NjPizzaStore" target="com.litchi.simple.factory.PizzaFactory">
+      <point x="-23.125" y="-27.5" />
+      <point x="481.6293859649123" y="705.0" />
+      <point x="520.4484649122807" y="705.0" />
+      <point x="520.4484649122807" y="539.0" />
+      <point x="541.9769736842105" y="539.0" />
+      <point x="-15.666666666666629" y="27.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.PizzaStore" target="com.litchi.simple.factory.PizzaFactory">
+      <point x="-65.0" y="-60.5" />
+      <point x="575.3859649122807" y="539.0" />
+      <point x="573.3103070175438" y="539.0" />
+      <point x="15.666666666666629" y="27.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NjPizzaFactory" target="com.litchi.simple.factory.PizzaFactory">
+      <point x="70.5" y="-27.5" />
+      <point x="237.23135964912274" y="529.0" />
+      <point x="479.31030701754383" y="529.0" />
+      <point x="-78.33333333333331" y="27.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NjPizzaFactory" target="com.litchi.simple.factory.PepperoniPizza">
+      <point x="-23.5" y="-27.5" />
+      <point x="143.23135964912274" y="529.0" />
+      <point x="97.36513157894728" y="529.0" />
+      <point x="-40.0" y="26.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NyPizzaStore" target="com.litchi.simple.factory.PizzaStore">
+      <point x="-23.125" y="-27.5" />
+      <point x="721.0109649122807" y="705.0" />
+      <point x="713.5109649122807" y="705.0" />
+      <point x="73.125" y="60.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NyPizzaStore" target="com.litchi.simple.factory.PizzaFactory">
+      <point x="23.125" y="-27.5" />
+      <point x="767.2609649122807" y="705.0" />
+      <point x="769.9144736842105" y="705.0" />
+      <point x="769.9144736842105" y="529.0" />
+      <point x="635.9769736842104" y="529.0" />
+      <point x="78.33333333333326" y="27.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.CheesePizza" target="com.litchi.simple.factory.Pizza">
+      <point x="0.0" y="-26.5" />
+      <point x="305.3651315789473" y="414.0" />
+      <point x="394.375" y="414.0" />
+      <point x="-12.375" y="129.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.PepperoniPizza" target="com.litchi.simple.factory.Pizza">
+      <point x="0.0" y="-26.5" />
+      <point x="137.36513157894728" y="404.0" />
+      <point x="369.625" y="404.0" />
+      <point x="-37.125" y="129.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NjPizzaStore" target="com.litchi.simple.factory.Pizza">
+      <point x="-69.375" y="-27.5" />
+      <point x="435.3793859649123" y="705.0" />
+      <point x="0.0" y="705.0" />
+      <point x="0.0" y="384.0" />
+      <point x="320.125" y="384.0" />
+      <point x="-86.625" y="129.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NyPizzaFactory" target="com.litchi.simple.factory.Pizza">
+      <point x="23.5" y="-27.5" />
+      <point x="406.8377192982456" y="519.0" />
+      <point x="431.6151315789473" y="519.0" />
+      <point x="431.6151315789473" y="414.0" />
+      <point x="419.125" y="414.0" />
+      <point x="12.375" y="129.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NyPizzaFactory" target="com.litchi.simple.factory.CheesePizza">
+      <point x="-23.5" y="-27.5" />
+      <point x="359.8377192982456" y="519.0" />
+      <point x="339.3651315789473" y="519.0" />
+      <point x="34.0" y="26.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NjPizzaStore" target="com.litchi.simple.factory.PizzaStore">
+      <point x="69.375" y="-27.5" />
+      <point x="574.1293859649122" y="705.0" />
+      <point x="616.0109649122807" y="705.0" />
+      <point x="-24.375" y="60.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NyPizzaFactory" target="com.litchi.simple.factory.PizzaFactory">
+      <point x="70.5" y="-27.5" />
+      <point x="453.8377192982456" y="539.0" />
+      <point x="510.64364035087715" y="539.0" />
+      <point x="-47.0" y="27.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NyPizzaStore" target="com.litchi.simple.factory.Pizza">
+      <point x="69.375" y="-27.5" />
+      <point x="813.5109649122807" y="705.0" />
+      <point x="780.9144736842105" y="705.0" />
+      <point x="780.9144736842105" y="394.0" />
+      <point x="493.375" y="394.0" />
+      <point x="86.625" y="129.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.PizzaStore" target="com.litchi.simple.factory.Pizza">
+      <point x="64.99999999999997" y="-60.5" />
+      <point x="705.3859649122807" y="539.0" />
+      <point x="707.8333333333334" y="539.0" />
+      <point x="707.8333333333334" y="404.0" />
+      <point x="468.625" y="404.0" />
+      <point x="61.875" y="129.5" />
+    </edge>
+    <edge source="com.litchi.simple.factory.NyPizzaFactory" target="com.litchi.simple.factory.PepperoniPizza">
+      <point x="-70.5" y="-27.5" />
+      <point x="312.8377192982456" y="509.0" />
+      <point x="177.36513157894728" y="509.0" />
+      <point x="40.0" y="26.5" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="188.0" y="336.5" />
-  <SelectedNodes>
-    <node>com.litchi.simple.factory.CheesePizza</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.9125" x="346.5" y="346.5753424657534" />
+  <SelectedNodes />
   <Categories>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
     <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
