@@ -13,8 +13,11 @@ public class PizzaStore {
         this.pizzaFactory = pizzaFactory;
     }
 
-    public void cook(String type) {
+    public void createPizza(String type) {
         Pizza pizza = pizzaFactory.createPizza(type);
-        System.out.println(pizza.getName() + "已制作完成");
+        pizza.prepare();
+        pizza.bake();
+        pizza.cut();
+        pizza.box();
     }
 }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.litchi.simple.factory.CheesePizza</OriginalElement>
+  <nodes>
+    <node x="0.0" y="365.0">com.litchi.simple.factory.PepperoniPizza</node>
+    <node x="174.4351851851852" y="0.0">lombok.Data</node>
+    <node x="184.7685185185185" y="575.0">com.litchi.simple.factory.PizzaStore</node>
+    <node x="180.0" y="365.0">com.litchi.simple.factory.CheesePizza</node>
+    <node x="171.4351851851852" y="105.0">com.litchi.simple.factory.Pizza</node>
+    <node x="142.35185185185185" y="470.0">com.litchi.simple.factory.PizzaFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.litchi.simple.factory.CheesePizza" target="com.litchi.simple.factory.Pizza">
+      <point x="0.0" y="-27.5" />
+      <point x="248.0" y="340.0" />
+      <point x="245.6851851851852" y="340.0" />
+      <point x="-24.75" y="105.0" />
+    </edge>
+    <edge source="com.litchi.simple.factory.PepperoniPizza" target="com.litchi.simple.factory.Pizza">
+      <point x="0.0" y="-27.5" />
+      <point x="80.0" y="340.0" />
+      <point x="196.1851851851852" y="340.0" />
+      <point x="-74.25" y="105.0" />
+    </edge>
+    <edge source="com.litchi.simple.factory.Pizza" target="lombok.Data">
+      <point x="0.0" y="-105.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="188.0" y="336.5" />
+  <SelectedNodes>
+    <node>com.litchi.simple.factory.CheesePizza</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

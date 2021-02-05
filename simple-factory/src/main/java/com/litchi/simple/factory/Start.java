@@ -9,7 +9,7 @@ public class Start {
     public static void main(String[] args) {
         PizzaFactory factory = new PizzaFactory();
         PizzaStore store = new PizzaStore(factory);
-        store.cook("CheesePizza");
-        store.cook("PepperoniPizza");
+        store.createPizza("CheesePizza");
+        store.createPizza("PepperoniPizza");
     }
 }
