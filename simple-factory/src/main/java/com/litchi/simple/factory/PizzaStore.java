@@ -13,13 +13,13 @@ public abstract class PizzaStore {
         this.pizzaFactory = pizzaFactory;
     }
 
-    public void createPizza(String type) {
-        Pizza pizza =orderPizza(type);
+    public void orderPizza(String type) {
+        Pizza pizza =createPizza(type);
         pizza.prepare();
         pizza.bake();
         pizza.cut();
         pizza.box();
     }
 
-    public abstract Pizza orderPizza(String type);
+    public abstract Pizza createPizza(String type);
 }

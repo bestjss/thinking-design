@@ -12,7 +12,8 @@ public class NyPizzaStore extends PizzaStore {
     }
 
     @Override
-    public Pizza orderPizza(String type) {
+    public Pizza createPizza(String type) {
+        System.out.println("NY 开始制作 " + type);
         return pizzaFactory.createPizza(type);
     }
 }
